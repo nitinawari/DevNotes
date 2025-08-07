@@ -1,0 +1,102 @@
+{
+  "/__docusaurus/debug/-546": {
+    "__comp": "__comp---theme-debug-config-23-a-2ff",
+    "__context": {
+      "plugin": "plugin---devnotes-docusaurus-debugb-38-d18"
+    }
+  },
+  "/__docusaurus/debug/config/-8a8": {
+    "__comp": "__comp---theme-debug-config-23-a-2ff",
+    "__context": {
+      "plugin": "plugin---devnotes-docusaurus-debugb-38-d18"
+    }
+  },
+  "/__docusaurus/debug/content/-2da": {
+    "__comp": "__comp---theme-debug-contentba-8-ce7",
+    "__context": {
+      "plugin": "plugin---devnotes-docusaurus-debugb-38-d18"
+    },
+    "__props": "__props---docusaurus-debug-content-197-dc7"
+  },
+  "/__docusaurus/debug/globalData/-178": {
+    "__comp": "__comp---theme-debug-global-dataede-0fa",
+    "__context": {
+      "plugin": "plugin---devnotes-docusaurus-debugb-38-d18"
+    }
+  },
+  "/__docusaurus/debug/metadata/-d6c": {
+    "__comp": "__comp---theme-debug-site-metadata-68-e-3d4",
+    "__context": {
+      "plugin": "plugin---devnotes-docusaurus-debugb-38-d18"
+    }
+  },
+  "/__docusaurus/debug/registry/-6e3": {
+    "__comp": "__comp---theme-debug-registry-679-501",
+    "__context": {
+      "plugin": "plugin---devnotes-docusaurus-debugb-38-d18"
+    }
+  },
+  "/__docusaurus/debug/routes/-cab": {
+    "__comp": "__comp---theme-debug-routes-946-699",
+    "__context": {
+      "plugin": "plugin---devnotes-docusaurus-debugb-38-d18"
+    }
+  },
+  "/docs/-acc": {
+    "__comp": "__comp---theme-docs-root-5-e-9-0b6",
+    "__context": {
+      "plugin": "plugin---devnotes-docsaba-883"
+    }
+  },
+  "/docs/-080": {
+    "__comp": "__comp---theme-doc-version-roota-7-b-5de",
+    "__props": "__props---docs-11-b-f70"
+  },
+  "/docs/-87b": {
+    "__comp": "__comp---theme-doc-roota-94-67a"
+  },
+  "/docs/category/tutorial---basics/-52e": {
+    "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
+    "__props": "__props---docs-category-tutorial-basics-f-21-c43"
+  },
+  "/docs/category/tutorial---extras/-b8e": {
+    "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
+    "__props": "__props---docs-category-tutorial-extras-2-ed-a84"
+  },
+  "/docs/intro/-e44": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---devnotes-docs-intro-0-e-3-198"
+  },
+  "/docs/tutorial-basics/congratulations/-a13": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---devnotes-docs-tutorial-basics-congratulations-822-a9c"
+  },
+  "/docs/tutorial-basics/create-a-blog-post/-76f": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---devnotes-docs-tutorial-basics-create-a-blog-post-533-f00"
+  },
+  "/docs/tutorial-basics/create-a-document/-991": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---devnotes-docs-tutorial-basics-create-a-document-1-e-4-20e"
+  },
+  "/docs/tutorial-basics/create-a-page/-35f": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---devnotes-docs-tutorial-basics-create-a-page-5-c-8-a8a"
+  },
+  "/docs/tutorial-basics/deploy-your-site/-775": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---devnotes-docs-tutorial-basics-deploy-your-sitef-55-5bb"
+  },
+  "/docs/tutorial-basics/markdown-features/-894": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---devnotes-docs-tutorial-basics-markdown-features-18-c-d3a"
+  },
+  "/docs/tutorial-extras/manage-docs-versions/-fa1": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---devnotes-docs-tutorial-extras-manage-docs-versionsdff-5b3"
+  },
+  "/docs/tutorial-extras/translate-your-site/-3c3": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---devnotes-docs-tutorial-extras-translate-your-sitee-44-83e"
+  }
+}
