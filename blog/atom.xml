@@ -6,7 +6,7 @@
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://nitinawari.github.io/DevNotes/blog"/>
     <subtitle>Dev Notes Blog</subtitle>
-    <icon>https://nitinawari.github.io/DevNotes/img/favicon.ico</icon>
+    <icon>https://nitinawari.github.io/DevNotes/img/logo.png</icon>
     <entry>
         <title type="html"><![CDATA[Welcome]]></title>
         <id>https://nitinawari.github.io/DevNotes/blog/welcome</id>
