@@ -7,6 +7,7 @@ import HomepageFeatures from '@site/src/components/HomepageFeatures';
 import Heading from '@theme/Heading';
 
 import styles from './index.module.css';
+import Footer from '../components/Footer';
 
 function HomepageHeader() {
   const {siteConfig} = useDocusaurusContext();
@@ -21,7 +22,7 @@ function HomepageHeader() {
           <Link
             className="button button--secondary button--lg"
             to="/docs/intro">
-            Docusaurus Tutorial - 5min ⏱️
+            Checkout My Wiki 
           </Link>
         </div>
       </div>
@@ -39,6 +40,7 @@ export default function Home(): ReactNode {
       <main>
         <HomepageFeatures />
       </main>
+      <Footer />
     </Layout>
   );
 }
