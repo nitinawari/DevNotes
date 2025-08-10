@@ -1,20 +1,23 @@
 # DevNotes Project — Mind Map & Cheatsheet
 
 ---
-
+*08 August 2025* 
 ## 🧠 Mind Map Overview
 
 ### DevNotes Project
 
 - **Setup**
   - Initialize Docusaurus (v3, TypeScript)
-  - Create GitHub repo: `DevNotes`
+  - `npm init docusaurus@latest DevNotes classic`
   - Configure `docusaurus.config.ts`
     - `url`: `https://nitinawari.github.io`
-    - `baseUrl`: `/DevNotes/`
-    - `organizationName` & `projectName` set correctly
+    - `baseUrl`: `/DevNotes/` (In which route you want to serve project)
+    - `organizationName`: `nitinawari`
+    - `projectName` : `DevNotes`
     - `editUrl` points to your GitHub repo
-  - Use SSH Authentication for GitHub deployment
+      - for docs `https://github.com/nitinawari/DevNotes/tree/main/`
+      - for blogs `https://github.com/nitinawari/DevNotes/tree/main/blog/`
+  
 
 - **Project Structure**
   - `docs/` — Markdown documentation files
@@ -30,13 +33,16 @@
   - Configure sidebar navigation (`sidebars.ts`)
 
 - **Deployment**
+  - Create repo on github and push code
+  - `settings->pages->set root as default folder and gh-pages as default branch`
   - Deployment branch: `gh-pages`
   - Deploy command:
     ```
     USE_SSH=true GIT_USER=nitinawari npm run deploy
     ```
-  - Fixes & tips:
-    - Use SSH remote URL instead of HTTPS for GitHub
+  - **Fixes & tips**:
+    - our machine should have proper ssh token setup, verify with
+      - `ssh -T git@github.com`
     - Use Personal Access Token (PAT) if using HTTPS (optional)
 
 - **Learned Concepts**
@@ -44,12 +50,6 @@
   - Difference between `docs` (Markdown) and `pages` (React)
   - GitHub Pages deployment workflow
   - SSH authentication setup for Git operations
-
-- **Next Steps**
-  - Add more docs & blog posts
-  - Create custom React components for better UX
-  - Include mind maps and cheatsheets within DevNotes wiki
-  - Setup GitHub Actions for automatic deployments
 
 ---
 
@@ -79,5 +79,4 @@
 
 ---
 
-*This cheatsheet is a living document — update it as your project grows!*
 
