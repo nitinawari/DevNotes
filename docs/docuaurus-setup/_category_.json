@@ -1,0 +1,8 @@
+{
+  "label": "Docusaurus-Setup",
+  "position": 2,
+  "link": {
+    "type": "generated-index",
+    "description": "Cheatsheet and roadmap to Initialize Docusaurus project and deploy to github pages"
+  }
+}

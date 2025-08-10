@@ -1,6 +1,7 @@
 # DevNotes Project — Mind Map & Cheatsheet
 
----
+**Quick guide to create documentation with docusaurus**
+
 *08 August 2025* 
 ## 🧠 Mind Map Overview
 
@@ -21,11 +22,36 @@
 
 - **Project Structure**
   - `docs/` — Markdown documentation files
+    - Contain all docs file written in md
+    - Every md file will become subpage of it parent folder
+      - we have to mention position of file at a top of file relative to other file of folder 
+      ```
+      sidebar_position: 5
+      ```
+    - `_category_.json` : This file present in every folder of docs with some configuration for folder 
+    ```
+    {
+      "label": "Docusaurus-Setup",
+      "position":
+      "link": { 
+        "type": "generated-index",
+        "description": "Cheatsheet and roadmap to Initialize Docusaurus project and deploy to github pages"
+      }
+    }
+    ```
+    - `label`: This is the display name of the category in the sidebar.
+    - `position`: postion on the sidebar relative to other Docs folder
+    - `link`: This controls what happens when the user clicks the category itself (not just its sub-pages).
+      - `type`: `"generated-index"` → Docusaurus will automatically create an index page for this category.
+      - `description`: This text appears on that generated index page.
+    
   - `src/`
     - `components/` — React components
     - `pages/` — React pages for routing
     - `css/custom.css` — Custom styling
   - `static/img/` — Favicons, logos, images
+
+  
 
 - **Development**
   - Use React + TypeScript for pages/components
