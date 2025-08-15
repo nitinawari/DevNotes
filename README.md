@@ -1,41 +1,67 @@
-# Website
+# 📒 DevNotes
 
-This website is built using [Docusaurus](https://docusaurus.io/), a modern static website generator.
+**DevNotes** is a personal developer wiki built with [Docusaurus](https://docusaurus.io/) — designed to organize technical notes, cheat sheets, mind maps, and resources in one searchable, version-controlled space.
 
-## Installation
+---
 
-```bash
-yarn
-```
+## ✨ Features
 
-## Local Development
+- 🖥 **Custom UI** — Tailored theme for better readability.
+- 🔍 **Full-text Search** — Local search with Algolia planned for future.
+- 🗂 **Category-based Navigation** — Organize notes by topic.
+- ⚡ **GitHub Pages Deployment** — Automatic CI/CD publishing.
+- 📄 **Markdown Powered** — Simple writing format.
+- 📚 **Multi-topic Coverage** — Programming, DevOps, Linux, and more.
 
-```bash
-yarn start
-```
+---
 
-This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
-
-## Build
-
-```bash
-yarn build
-```
-
-This command generates static content into the `build` directory and can be served using any static contents hosting service.
-
-## Deployment
-
-Using SSH:
+ ## 📂 Folder Structure
 
 ```bash
-USE_SSH=true yarn deploy
+DevNotes/
+├── docs/                  # Main documentation content
+├── blog/                  # Blog posts (optional)
+├── sidebars.ts            # Sidebar configuration
+├── docusaurus.config.ts   # Site configuration
+├── src/                   # Custom components & styles
+└── static/                # Static assets (images, icons, etc.)
 ```
+---
 
-Not using SSH:
+## 🚀 Getting Started
 
+### 1. Clone the Repository
 ```bash
-GIT_USER=<Your GitHub username> yarn deploy
+git clone https://github.com/nitinawari/DevNotes.git
+cd DevNotes
+```
+--- 
+
+### 2. Install Dependencies
+```bash
+npm install
+```
+--- 
+
+### 3. Start Development Server
+```bash
+npm run start
 ```
 
-If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
+- Visit http://localhost:3000 to preview.
+---
+
+### 4. Build for Production
+```bash
+npm run build
+```
+---
+
+### 🌐 Deployment
+This project is automatically deployed to GitHub Pages using GitHub Actions.
+
+To deploy manually:
+```bash
+GIT_USER=<YourGitHubUsername> npm run deploy
+```
+---
