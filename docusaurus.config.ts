@@ -69,7 +69,16 @@ const config: Config = {
       } satisfies Preset.Options,
     ],
   ],
-
+  
+  plugins: [
+    [
+      require.resolve('@easyops-cn/docusaurus-search-local'),
+      {
+        hashed: true,
+        language: ["en"], // Add "hi" if you want Hindi, etc.
+      },
+    ],
+  ],
   themeConfig: {
     // Replace with your project's social card
     image: 'img/docusaurus-social-card.jpg',
